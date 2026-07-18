@@ -82,9 +82,11 @@ types/models.ts Core data model shared across local storage and Firestore
 
 - Minimum 52pt touch targets.
 - Every interactive element has an `accessibilityRole` and label.
-- how to use:Nothing changes for your friend beyond what I gave you before — the README update was just cosmetic (it makes the GitHub page look accurate), it doesn't affect how the app runs.
+
+
+how to use:Nothing changes for your friend beyond what I gave you before — the README update was just cosmetic (it makes the GitHub page look accurate), it doesn't affect how the app runs.
 They still do exactly this on their MacBook Pro:
-bashgit clone https://github.com/sussymiata-lang/healthlitpro.git
+copy all 4 lines of code here: git clone https://github.com/sussymiata-lang/healthlitpro.git
 cd healthlitpro
 npm install --legacy-peer-deps
 npx expo start
