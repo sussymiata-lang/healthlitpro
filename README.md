@@ -86,10 +86,16 @@ types/models.ts Core data model shared across local storage and Firestore
 
 how to use:Nothing changes for your friend beyond what I gave you before — the README update was just cosmetic (it makes the GitHub page look accurate), it doesn't affect how the app runs.
 They still do exactly this on their MacBook Pro:
-copy all 4 lines of code here: git clone https://github.com/sussymiata-lang/healthlitpro.git
+copy all 4 lines of code here: 
+
+git clone https://github.com/sussymiata-lang/healthlitpro.git
+
 cd healthlitpro
+
 npm install --legacy-peer-deps
+
 npx expo start
+
 Then:
 
 w → web browser
@@ -98,7 +104,9 @@ Scan the QR code with Expo Go on their phone
 
 If the repo is private, they need to be added first: GitHub → your repo → Settings → Collaborators → Add people → their GitHub username.
 One thing to double check: is sussymiata-lang your friend's GitHub account, or yours? Since you mentioned earlier your friend might already have a repo — if this repo is under their account, they don't even need to clone anything from GitHub at all; they can just open the project folder they already have and git pull to get your latest pushed changes instead.
-Which is it — their account or yours?what do they need to have installed on their deviceHere's the full checklist for their MacBook Pro:
+Which is it — their account or yours?what do they need to have installed on their device
+
+Here's the full checklist for their MacBook Pro:
 Required
 
 Node.js (LTS version) — nodejs.org
