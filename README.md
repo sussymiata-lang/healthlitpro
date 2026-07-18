@@ -121,9 +121,9 @@ once they have my github link and the stuff installedOnce they've got Node, Git,
 bashgit clone https://github.com/sussymiata-lang/healthlitpro.git
 cd healthlitpro
 2. Install dependencies
-bashnpm install --legacy-peer-deps
+ npm install --legacy-peer-deps
 3. Run it
-bashnpx expo start
+ npx expo start
 4. View the app — pick one:
 
 Press w → opens in their web browser
