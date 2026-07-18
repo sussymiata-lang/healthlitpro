@@ -82,6 +82,55 @@ types/models.ts Core data model shared across local storage and Firestore
 
 - Minimum 52pt touch targets.
 - Every interactive element has an `accessibilityRole` and label.
+- how to use:Nothing changes for your friend beyond what I gave you before — the README update was just cosmetic (it makes the GitHub page look accurate), it doesn't affect how the app runs.
+They still do exactly this on their MacBook Pro:
+bashgit clone https://github.com/sussymiata-lang/healthlitpro.git
+cd healthlitpro
+npm install --legacy-peer-deps
+npx expo start
+Then:
+
+w → web browser
+i → iOS Simulator
+Scan the QR code with Expo Go on their phone
+
+If the repo is private, they need to be added first: GitHub → your repo → Settings → Collaborators → Add people → their GitHub username.
+One thing to double check: is sussymiata-lang your friend's GitHub account, or yours? Since you mentioned earlier your friend might already have a repo — if this repo is under their account, they don't even need to clone anything from GitHub at all; they can just open the project folder they already have and git pull to get your latest pushed changes instead.
+Which is it — their account or yours?what do they need to have installed on their deviceHere's the full checklist for their MacBook Pro:
+Required
+
+Node.js (LTS version) — nodejs.org
+Git — usually preinstalled on Mac; if not, running git --version in Terminal will prompt them to install Xcode Command Line Tools automatically
+A code editor — VS Code or whatever they prefer (not strictly required to run the app, just to edit it)
+
+For testing the app
+
+Expo Go — free app from the Mac App Store (lets them scan the QR code and run the app on their own iPhone instantly, no build needed)
+
+Optional, only if they want the iOS Simulator
+
+Xcode — free from the Mac App Store, but it's a large download (several GB). This unlocks testing in an on-screen iPhone simulator instead of needing a physical phone — the one thing only a Mac can do (you can't run iOS Simulator on Windows).
+
+That's it
+No Android Studio needed unless they specifically want the Android emulator instead of testing on a real device.
+Quick summary to send them:
+
+Install Node.js from nodejs.org, make sure git works in Terminal (it'll prompt to install if not), and grab Expo Go from the Mac App Store. Optionally install Xcode if you want the iOS Simulator instead of testing on your own phone.
+once they have my github link and the stuff installedOnce they've got Node, Git, and Expo Go installed, here's exactly what they do:
+1. Clone the repo
+bashgit clone https://github.com/sussymiata-lang/healthlitpro.git
+cd healthlitpro
+2. Install dependencies
+bashnpm install --legacy-peer-deps
+3. Run it
+bashnpx expo start
+4. View the app — pick one:
+
+Press w → opens in their web browser
+Press i → opens iOS Simulator (only works if they installed Xcode)
+Scan the QR code shown in the terminal, using the Expo Go app on their own iPhone
+
+That's the whole thing — four steps, and they'll have HealthLit running on their machine.
 - High-contrast ink on light/dark surfaces; color is never the only signal.
 - No decorative animation.
 
